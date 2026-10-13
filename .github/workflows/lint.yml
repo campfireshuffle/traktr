@@ -24,4 +24,4 @@ jobs:
         run: npm run lint
 
       - name: Type check
-        run: tsc -noEmit -skipLibCheck
+        run: npx --no-install tsc -noEmit -skipLibCheck
